@@ -1,3 +1,0 @@
-hi ##name## ##surname##
-##email##
-##address##
