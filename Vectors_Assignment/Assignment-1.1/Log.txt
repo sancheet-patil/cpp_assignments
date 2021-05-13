@@ -1,0 +1,25 @@
+    Added Exception to all below functions
+-------------------------------------------------------------------------------------------------
+    
+    // Log
+        vectorClass()throw(bad_alloc);                              // default constructor
+        vectorClass( vectorClass& x) throw(bad_alloc);               //copy constructor
+        vectorClass& operator= (vectorClass& x) throw(bad_alloc);        //= operator
+    //Modifiers
+        void pushBack(T) throw(bad_alloc);           // push in the container 
+        void pop() throw (string);                 // delete element from back
+    //Acess Elements
+        T& operator[](int ) throw(string); 
+        T& at(int ) const throw (char const*);  
+-----------------------------------------------------------------------------------------
+
+delete[] this->arr;
+Memory lEAKS bug 
+    
+-----------------------------------------------------------------------------------------
+try{} and catch block in main()
+-----------------------------------------------------------------------------------------
+Exception handled according to type exception thrown
+-----------------------------------------------------------------------------------------
+Made compatible with different data structure 
+-----------------------------------------------------------------------------------------
